@@ -1,0 +1,4 @@
+{
+    "name": "address-check-service",
+    "script": "npm start"
+}
