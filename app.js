@@ -9,11 +9,7 @@ const router = express.Router();
 const WAValidator = require('wallet-address-validator');
 
 const Web3 = require('web3');
-const web3 = new Web3();web3.setProvider(
-        new web3.providers.HttpProvider(
-          "https://mainnet.infura.io/v3/c418569e6e19447c8f8f24f42fdb27ad"
-        )
-);
+const web3 = new Web3();web3.setProvider(new web3.providers.HttpProvider("http://node_rpc_endpoint"));
 
 const contractAddress = '0xe1B05227824E45F5713ea8bF6e4Ad59b3d4A98ef'
 
