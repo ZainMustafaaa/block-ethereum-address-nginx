@@ -1,4 +1,0 @@
-{
-    "name": "ethereum address validation service",
-    "script": "node app.js"
-}
